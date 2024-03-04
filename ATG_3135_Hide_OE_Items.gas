@@ -1,0 +1,43 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+'Hook 11560: Hides the following Items:
+
+'Price Class Disc
+'lbl
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000122,"HIDE",1)
+'txt1
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000075,"HIDE",1)
+'txt2
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000067,"HIDE",1)
+'browser
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000076,"HIDE",1)
+
+'ORDER DISC
+'lbl
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000121,"HIDE",1)
+'txt
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000068,"HIDE",1)
+
+'PRICE CATG
+'lbl
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000120,"HIDE",1)
+'txt
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000082,"HIDE",1)
+'browser
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000083,"HIDE",1)
+
+'DISCOUNTALLITEMS
+'lbl
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000119,"HIDE",1)
+'checkbox
+F.Intrinsic.UI.ChangeCallerProperty(V.Passed.000081,"HIDE",1)
+
+Program.Sub.Main.End
+
+
